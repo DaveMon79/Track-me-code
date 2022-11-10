@@ -23,7 +23,7 @@ module.exports = () => {
         template: './index.html',
         title: 'Contact Cards'
       }),
-     
+
       // Injects our custom service worker
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -39,8 +39,8 @@ module.exports = () => {
         description: 'Never forget your contacts!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
@@ -54,16 +54,6 @@ module.exports = () => {
     module: {
       // CSS loaders
       rules: [
-        {
-          test: /\.m?js$/,
-          exclude: /(node_modules|bower_components)/,
-          use: {
-            loader: 'babel-loader',
-            options: {
-              presets: ['@babel/preset-env'],
-            },
-          },
-        },
         {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
