@@ -60,7 +60,9 @@ This weeks assignment is to ask is to build a text editor that runs in the brows
 ![Technologies](https://img.shields.io/badge/-Node.js-339933?logo=Node.js&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-Express-000000?logo=Express&logoColor=white)
-![Technologies](https://img.shields.io/badge/-HTML5-#E34F26?logo=HTML5&logoColor=white)
+![Technologies](https://img.shields.io/badge/-Babel-CB3837?logo=Babel&logoColor=white)
+![Technologies](https://img.shields.io/badge/-Webpack-8DD6F9?logo=Webpack&logoColor=white)
+![Technologies](https://img.shields.io/badge/-HTML5-E34F26?logo=HTML5&logoColor=white)
 
 
 
@@ -70,7 +72,7 @@ In Terminal type "npm i". This will install all the pre added dependancies you'l
   
 # Usage
   
-To use this appilcation type "npm start", this will create the database and activate the application. 
+To use this appilcation type "npm start", this will build the dist folder and start the server listening. 
 
 
 # License
@@ -82,13 +84,13 @@ To use this appilcation type "npm start", this will create the database and acti
 
 # Screenshot
 
-![image](https://user-images.githubusercontent.com/103275458/200116110-86e645d0-3d4f-46da-af8f-39f5db97cb39.png)
+![image](https://user-images.githubusercontent.com/103275458/201413702-4de8791a-32fa-44db-9753-873db605a331.png)
 
 # Links
 
 [Github Repository](https://github.com/DaveMon79/Track-me-code)
 
-[Heroku Live URL]()
+[Heroku Live URL](https://fast-coast-53188.herokuapp.com/)
 
   
 # Contributing
